@@ -23,6 +23,7 @@
             android:padding="5dp">
 
             <ImageView
+                android:id="@+id/img_delete_item_cart"
                 android:layout_width="10dp"
                 android:layout_height="10dp"
                 android:layout_alignParentRight="true"

@@ -45,6 +45,7 @@ public class NewsApdapter extends RecyclerView.Adapter<NewsApdapter.ViewHolder> 
         Log.d(TAG, "onBindViewHolder: Vao day k ");
         holder.title.setText(data.get(position).getTitle());
         Glide.with(context).load(r.getURL()+data.get(position).getImg1()).into(holder.img);
+
     }
 
     @Override

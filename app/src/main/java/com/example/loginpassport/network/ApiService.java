@@ -87,6 +87,10 @@ public interface ApiService {
     Call<String> updateRecipients(@Field("address") String address, @Field("phone") String phone);
     @GET("getnews")
     Call<List<NewsModel>> getNews();
+    @GET("getnewsbyid/{id}")
+    Call<List<NewsModel>> getNewsbyid(@Path("id") int id);
+    @GET("deleteitemcart/{id}")
+    Call<String> deleteItem(@Path("id") int id);
 
 
 

@@ -73,9 +73,11 @@ public class MainMenuItemAdapter extends RecyclerView.Adapter<MainMenuItemAdapte
                   case 3:
                       Intent intent1 = new Intent(context, MedicineShop.class);
                       context.startActivity(intent1);
+                      break;
                   case 4:
                       Intent intent2 = new Intent(context, NewsActivity.class);
                       context.startActivity(intent2);
+                      break;
 
               }
             }

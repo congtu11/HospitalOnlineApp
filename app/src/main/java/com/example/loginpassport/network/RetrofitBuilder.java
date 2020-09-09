@@ -16,8 +16,8 @@ import retrofit2.converter.moshi.MoshiConverterFactory;
 
 public class RetrofitBuilder {
 
-    private static final String BASE_URL = "http://192.168.40.65:8000/api/";
-    public static final String URL = "http://192.168.40.65:8000/";
+    private static final String BASE_URL = "http://192.168.43.23:8000/api/";
+    public static final String URL = "http://192.168.43.23:8000/";
     public String getURL() {
         return URL;
     }

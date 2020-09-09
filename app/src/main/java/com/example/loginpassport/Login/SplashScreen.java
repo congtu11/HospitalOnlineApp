@@ -70,7 +70,8 @@ public class SplashScreen extends AppCompatActivity {
                 @Override
                 public void onFailure(Call<String> call, Throwable t) {
                     Log.d("TAG", "onFailure: Loi dang nhap that bai");
-                    checkLogin =true;
+                    Intent intent = new Intent(SplashScreen.this,LoginActivity.class);
+                    startActivity(intent);
                 }
             });
 
